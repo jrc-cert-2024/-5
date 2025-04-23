@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>磁罗经校正信息</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    .header {
+      background-color: white;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    .header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    .query-section {
+      padding: 15px;
+      text-align: center;
+    }
+    .query-section input, .query-section button {
+      margin: 5px;
+      padding: 8px;
+      font-size: 14px;
+    }
+    .query-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .reset-btn {
+      background-color: white;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .status-bar {
+      background-color: #8aff8a;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .info-table {
+      width: 90%;
+      max-width: 500px;
+      margin: 20px auto;
+      background-color: white;
+      border-collapse: collapse;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .info-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .info-table td:first-child {
+      background-color: #f1f1f1;
+      font-weight: bold;
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://i.imgur.com/MWdHaO2.png" alt="磁罗经校正LOGO">
+    <h2>磁罗经校正信息化系统</h2>
+  </div>
+
+  <div class="query-section">
+    <input type="text" placeholder="请输入船名">
+    <input type="text" placeholder="请输入ID/CallSign">
+    <button class="query-btn">查询</button>
+    <button class="reset-btn">重置</button>
+  </div>
+
+  <div class="status-bar">正常数据</div>
+
+  <table class="info-table">
+    <tr><td>船名</td><td>TIANA</td></tr>
+    <tr><td>ID/Callsign</td><td>538011107</td></tr>
+    <tr><td>功率</td><td>0</td></tr>
+    <tr><td>总吨</td><td>39999</td></tr>
+    <tr><td>磁罗经台数</td><td>1</td></tr>
+    <tr><td>校正日期</td><td>2025-04-14</td></tr>
+    <tr><td>校正人姓名</td><td>曹炯</td></tr>
+    <tr><td>证书号</td><td>205168</td></tr>
+    <tr><td>校正有效期</td><td>2026-04-14</td></tr>
+  </table>
+</body>
